@@ -5,3 +5,10 @@ body {
   /* #ccc is shorthand HEX for a light grey */
   background: #cfc;
 }
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: darkgreen;
+    clear: left;
+    text-align: center;
+}
