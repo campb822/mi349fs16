@@ -1,0 +1,54 @@
+body {
+  background: #ffffff;
+  text-align: center;
+}
+
+h1{
+  font-size: 70px;
+  margin: 10px;
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+  margin: 15px;
+  padding: 20px;
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+  margin: 50px;
+  padding: 10px;
+  overflow: hidden;
+  background-color: lightgray;
+}
+
+li a {
+  color: darkgreen;
+  margin: 100px;
+  padding: 50px 50px;
+  text-decoration: none;
+}
+
+img {
+  border: 10px;
+  border-radius:100px;
+  float: right;
+  padding 50px;
+}
+li {
+  float: left;
+}
+
+
+
+
+
+#Headphones {
+  color: black;
+  font-family: helvetica;
+}
+#homepage{
+  color: darkgreen;
+  font-family: helvetica;
+}
