@@ -1,0 +1,59 @@
+body {
+  background: linear-gradient(#009D80,black);
+  font-family: helvetica;
+}
+
+.overall {
+  margin-top: 50px;
+  margin-left: 15px;
+}
+
+.card {
+  background: linear-gradient(blue, red);
+  border-radius: 45px;
+  max-width: 900px;
+  max-height: 900px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 10px;
+}
+
+.card, .Recipe {
+  float: right;
+  margin: 0 3%;
+  width: 35%;
+  display: inline;
+  box-shadow: 5px 5px 5px #888888;
+}
+
+.Recipe img {
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.Recipe li {
+  padding: 10px;
+  font-size: 15px;
+}
+
+.card, .ingreds {
+  float: left;
+  width: 59%;
+  box-shadow: 5px 5px 5px #888888;
+}
+
+.ingreds ul {
+  font-size: 17px;
+}
+
+.card, .source {
+  float: left;
+  width: 60%;
+}
+
+.source ul {
+  font-size: 14px;
+}
+.source a {
+  color: blue;
+}
