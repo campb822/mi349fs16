@@ -1,0 +1,20 @@
+Scott Campbell
+MI 349
+Final Project Copy Lab
+
+
+
+Content Sections—
+
+	1) Projects— This is a collection of my work as a student at Michigan State University. This section highlights what I have learned in my Computer Science courses as well as  	my work during my internship(s). Overall, this page will cover as many well-rounded examples of my work as possible. Enjoy!
+
+	2) Contact Me— Here are some useful links to help you contact me more easily: 
+			E-mail: campb822@msu.edu	scampbell@fraunhofer.org	sacampbell2014@gmail.com
+			(embedded text box to e-mail to my msu address)
+			Phone Number: (586) 914-4020
+			LinkedIn: www.linkedin.com/campb822
+		
+
+	3) Education— Here is a more in-depth explanation of my major and minor in the College of Engineering at MSU. During my time at MSU, I have worked in Python, C++, Java, 	HTML, SQL, and more. My freshman year at MSU focused mainly on Python and grasping the main logic of programming. Sophomore year, I gained experience with more complex 	languages like C++. Junior year included taking what I had learned my first two years and including efficient algorithms and being focused on efficiency. Additionally, my  	minor came more into my education as I began taking classes relating to business IT.
+
+	4) Extracurriculars— I play trumpet in the Spartan Marching Band, and this is my third year playing in the ensemble. Being in the band has given me an immense amount of 	leadership skills that I will hopefully take into the workplace. Additionally, my work during my internship at Fraunhofer has allowed me to hone my abilities as a computer 	scientist, where I built a hardware firewall using a Raspberry Pi computer. Also, I translated the computer list we had in the office containing software to a SQL database 	to ease us into being able to add more computers without increasing the size of our spreadsheet.
