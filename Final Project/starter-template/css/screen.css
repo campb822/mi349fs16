@@ -1,0 +1,81 @@
+/* Add your CSS below */
+
+/* Example: adding a background color to the HTML body */
+html{
+  background: #18453B
+}
+
+body{
+
+  text-align: center;
+}
+h1{
+  font-size: 70px;
+  margin: 10px;
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+  margin: 15px;
+  padding: 20px;
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+  margin: 50px;
+  padding: 10px;
+  overflow: hidden;
+  background-color: black;
+}
+
+li a {
+  color: white;
+  margin: 100px;
+  padding: 50px 50px;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+}
+
+img {
+  border: 10px;
+  border-radius:100px;
+  float: right;
+  padding 50px;
+}
+li {
+  float: left;
+}
+
+#helloworld{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 100px;
+  text-align: center;
+}
+#home{
+
+}
+
+#proj{
+  font-family: 'Bungee', cursive;
+  font-size: 100px;
+  text-align: center;
+}
+
+#edu{
+  font-family: 'Orbitron' , sans-serif;
+  font-size: 100px;
+  text-align: center;
+}
+
+#extra{
+  font-family: 'Roboto', sans-serif;
+  font-size: 100px;
+  text-align: center;
+}
+
+#contactme{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 100px;
+  text-align: center;
+}
