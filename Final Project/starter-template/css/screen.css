@@ -1,81 +1,393 @@
 /* Add your CSS below */
 
 /* Example: adding a background color to the HTML body */
+/* Smartphones (portrait and landscape) ----------- */
+
 html{
+  /*background: linear-gradient(bottom, rgba(0,255,0,1), rgba(0,255,0,.6));
+  background: -webkit-linear-gradient(top, rgba(24,69,59,1), rgba(0,0,0,.6));
+  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.6));*/
   background: #18453B
 }
-
-body{
-
-  text-align: center;
+#fade_in{
+  display:none;
 }
-h1{
-  font-size: 70px;
-  margin: 10px;
-  text-align: center;
+#fade_in2{
+  display: none;
 }
-
-p {
-  font-size: 20px;
-  margin: 15px;
-  padding: 20px;
-  text-align: center;
+#homepage{
+  display:none;
 }
-ul {
-  list-style-type: none;
-  margin: 50px;
-  padding: 10px;
-  overflow: hidden;
-  background-color: black;
-}
-
-li a {
-  color: white;
-  margin: 100px;
-  padding: 50px 50px;
-  font-family: 'Roboto', sans-serif;
-  text-decoration: none;
-}
-
-img {
-  border: 10px;
-  border-radius:100px;
-  float: right;
-  padding 50px;
-}
-li {
-  float: left;
-}
-
-#helloworld{
-  font-family: 'Press Start 2P', cursive;
-  font-size: 100px;
-  text-align: center;
-}
-#home{
-
-}
-
-#proj{
-  font-family: 'Bungee', cursive;
-  font-size: 100px;
-  text-align: center;
-}
-
-#edu{
-  font-family: 'Orbitron' , sans-serif;
-  font-size: 100px;
-  text-align: center;
-}
-
-#extra{
-  font-family: 'Roboto', sans-serif;
-  font-size: 100px;
-  text-align: center;
-}
-
 #contactme{
-  font-family: 'Press Start 2P', cursive;
+  display:none;
+}
+#proj{
+  display:none;
+}
+#edu{
+  display:none;
+}
+#extra{
+  display:none;
+}
+.lol.fa{
   font-size: 100px;
-  text-align: center;
+}
+@media only screen and (min-width : 1249px) {
+
+  body{
+    text-align: center;
+  }
+  h1{
+    font-size: 65px;
+    margin: 10px;
+    text-align: center;
+  }
+
+  p {
+    font-family: 'Roboto', cursive;
+    color: darkgray;
+    font-size: 30px;
+    margin: 15px;
+    padding: 20px;
+    text-align: center;
+  }
+  ul {
+    list-style-type: none;
+    margin: 20px;
+    padding: 10px;
+    overflow: hidden;
+    background-color: black;
+    float:center;
+  }
+
+  li a {
+    color: white;
+    margin: 60px;
+    padding: 2px 2px;
+    font-family: 'Rock Salt', cursive;
+    text-decoration: none;
+    float:center;
+  }
+
+  /*img {
+    border: 100px;
+    border-radius:10px;
+    float: left;
+    padding 5px;
+
+  }
+  */
+
+  li {
+    float: left;
+
+  }
+
+  #helloworld{
+    font-family: 'Press Start 2P', cursive;
+    padding: 10px;
+    font-size: 80px;
+    text-align: center;
+    display: none;
+  }
+  #home{
+
+  }
+
+  #proj{
+    font-family: 'Bungee', cursive;
+    font-size: 100px;
+    text-align: center;
+  }
+
+  #edu{
+    font-family: 'Orbitron' , sans-serif;
+    font-size: 100px;
+    text-align: center;
+  }
+
+  #extra{
+    font-family: 'Roboto', cursive;
+    font-size: 50px;
+    text-align: center;
+  }
+
+  #contactme{
+    font-family: 'Bungee', cursive;
+    font-size: 100px;
+    text-align: center;
+  }
+
+  #helloworld_img{
+    display: none;
+    float: left;
+    padding: 10px;
+    border: 100px;
+    border-radius:10px;
+    height: 400px;
+    width: 400px;
+  }
+}
+@media only screen and (max-width : 1249px) {
+
+  body{
+    text-align: center;
+  }
+  h1{
+    font-size: 70px;
+    margin: 10px;
+    text-align: center;
+  }
+
+  p {
+    font-family: 'Roboto', cursive;
+    color: darkgray;
+    font-size: 30px;
+    margin: 15px;
+    padding: 20px;
+    text-align: center;
+  }
+  ul {
+    list-style-type: none;
+    margin: 20px;
+    padding: 10px;
+    overflow: hidden;
+    background-color: black;
+    float:center;
+  }
+
+  li a {
+    color: white;
+    margin: 50px;
+    padding: 2px 2px;
+    font-family: 'Rock Salt', cursive;
+    text-decoration: none;
+    float:center;
+  }
+
+
+
+  li {
+    float: left;
+
+  }
+
+  #helloworld{
+    font-family: 'Press Start 2P', cursive;
+    padding: 10px;
+    font-size: 80px;
+    text-align: center;
+    display: none;
+  }
+  #home{
+
+  }
+
+  #proj{
+    font-family: 'Bungee', cursive;
+    font-size: 100px;
+    text-align: center;
+  }
+
+  #edu{
+    font-family: 'Orbitron' , sans-serif;
+    font-size: 100px;
+    text-align: center;
+  }
+
+  #extra{
+    font-family: 'Roboto', cursive;
+    font-size: 50px;
+    text-align: center;
+  }
+
+  #contactme{
+    font-family: 'Bungee', cursive;
+    font-size: 100px;
+    text-align: center;
+  }
+
+  #helloworld_img{
+    display: none;
+    float: left;
+    padding: 10px;
+    border: 100px;
+    border-radius:10px;
+    height: 300px;
+    width: 300px;
+  }
+
+}
+
+@media only screen and (max-width : 1130px) {
+  body{
+    text-align: center;
+  }
+  h1{
+    font-size: 70px;
+    margin: 10px;
+    text-align: center;
+  }
+
+  p {
+    font-family: 'Roboto', cursive;
+    color: darkgray;
+    font-size: 20px;
+    margin: 15px;
+    padding: 20px;
+    text-align: center;
+  }
+  ul {
+    list-style-type: none;
+    margin: 20px;
+    padding: 10px;
+    overflow: hidden;
+    background-color: black;
+    float:center;
+  }
+
+  li a {
+    color: white;
+    margin: 40px;
+    padding: 2px 2px;
+    font-family: 'Rock Salt', cursive;
+    text-decoration: none;
+    float:center;
+  }
+
+  li {
+    float: left;
+
+  }
+
+  #helloworld{
+    font-family: 'Press Start 2P', cursive;
+    padding: 10px;
+    font-size: 80px;
+    text-align: center;
+    display: none;
+  }
+  #home{
+
+  }
+
+  #proj{
+    font-family: 'Bungee', cursive;
+    font-size: 100px;
+    text-align: center;
+  }
+
+  #edu{
+    font-family: 'Orbitron' , sans-serif;
+    font-size: 100px;
+    text-align: center;
+  }
+
+  #extra{
+    font-family: 'Roboto', cursive;
+    font-size: 50px;
+    text-align: center;
+  }
+
+  #contactme{
+    font-family: 'Bungee', cursive;
+    font-size: 100px;
+    text-align: center;
+  }
+
+  #helloworld_img{
+    display: none;
+    float: left;
+    padding: 10px;
+    border: 100px;
+    border-radius:10px;
+    height: 300px;
+    width: 300px;
+  }
+
+}
+
+@media only screen and (max-width : 1030px) {
+  body{
+    text-align: center;
+  }
+  h1{
+    font-size: 70px;
+    margin: 10px;
+  }
+
+  p {
+    font-family: 'Roboto', cursive;
+    color: darkgray;
+    font-size: 20px;
+    margin: 15px;
+    padding: 20px;
+
+  }
+  ul {
+    list-style-type: none;
+    margin: 20px;
+    padding: 10px;
+    overflow: hidden;
+    background-color: black;
+    float: center;
+  }
+
+  li a {
+    color: white;
+    font-family: 'Rock Salt', cursive;
+    text-decoration: none;
+    padding: 0px;
+    margin: 5px;
+    font-size: 15px;
+  }
+
+
+
+  #helloworld{
+    font-family: 'Press Start 2P', cursive;
+    padding: 10px;
+    font-size: 80px;
+    text-align: center;
+    display: none;
+  }
+  #home{
+
+  }
+
+  #proj{
+    font-family: 'Bungee', cursive;
+    font-size: 100px;
+    text-align: center;
+  }
+
+  #edu{
+    font-family: 'Orbitron' , sans-serif;
+    font-size: 100px;
+    text-align: center;
+  }
+
+  #extra{
+    font-family: 'Roboto', cursive;
+    font-size: 50px;
+    text-align: center;
+  }
+
+  #contactme{
+    font-family: 'Bungee', cursive;
+    font-size: 100px;
+    text-align: center;
+  }
+
+  #helloworld_img{
+    display: none;
+    float: left;
+    padding: 10px;
+    border: 100px;
+    border-radius:10px;
+    height: 300px;
+    width: 300px;
+  }
+
 }
