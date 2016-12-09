@@ -99,6 +99,7 @@ ul {
 }
 #proj2{
   display:none;
+  float:left;
 }
 #contact{
   display:none;

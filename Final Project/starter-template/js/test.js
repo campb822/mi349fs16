@@ -51,10 +51,10 @@ $(document).ready(function() {
   $("#extra_p").delay(2000).fadeIn("slow");
 });
 $(document).ready(function() {
-  $("#proj2").delay(2000).fadeIn("fast");
+  $("#proj2").delay(2000).fadeIn("normal");
 });
 $(document).ready(function() {
-  $("#proj3").delay(2000).fadeIn("normal");
+  $("#proj3").delay(2500).fadeIn("normal");
 });
 $(document).ready(function() {
   $("#proj4").delay(4000).fadeIn("normal");
